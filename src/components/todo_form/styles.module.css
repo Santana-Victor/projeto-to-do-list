@@ -1,0 +1,28 @@
+.todo_form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: var(--bg-button-submit);
+  color: var(--txt-color-secundary);
+  opacity: 0.8;
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+  opacity: 1;
+}
