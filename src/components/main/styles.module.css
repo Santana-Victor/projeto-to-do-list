@@ -1,0 +1,17 @@
+.main {
+  margin: 50px auto 300px;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bg-main);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 480px) {
+  .main {
+    margin: 20px 0 100px;
+  }
+}
