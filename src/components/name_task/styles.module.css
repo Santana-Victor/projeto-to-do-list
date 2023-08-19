@@ -1,0 +1,9 @@
+.name.checked {
+  text-decoration: line-through;
+}
+
+@media (max-width: 479px) {
+  .name {
+    text-align: center;
+  }
+}

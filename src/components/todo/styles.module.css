@@ -1,0 +1,32 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--bg-todo);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container_buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 479px) {
+  .todo {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .content {
+    align-items: center;
+  }
+}
